@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Audi R8</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 85vh;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+
+    .animation {
+      animation-name: fade-in;
+      animation-duration: 2s;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Audi R8</h1>
+  </header>
+
+  <div class="main-content">
+    <div class="animation">
+      <img src="D:\i ьвы.webp" alt="Audi R8" width="400">
+      <p>Audi R8 — среднемоторный двухместный спортивный автомобиль, выпускаемый немецкой компанией Audi AG.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    window.onload = function () {
+      var animationElement = document.querySelector(".animation");
+      animationElement.classList.add("animation");
+    };
+  </script>
+</body>
+
+</html>
+
+<head>
+  <title>Таблица Audi R8</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 2px solid #333;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 10px;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <h1>Audi R8</h1>
+
+  <table>
+    <tr>
+      <th>Характеристика</th>
+      <th>Значение</th>
+    </tr>
+    <tr>
+      <td>Мощность</td>
+      <td>610 л.с.</td>
+    </tr>
+    <tr>
+      <td>Разгон до 100 км/ч</td>
+      <td>3.2 секунды</td>
+    </tr>
+    <tr>
+      <td>Максимальная скорость</td>
+      <td>330 км/ч</td>
+    </tr>
+    <tr>
+      <td>Цена</td>
+      <td>от 2 000 000 рублей</td>
+    </tr>
+  </table>
+</body>
